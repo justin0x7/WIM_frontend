@@ -9,6 +9,7 @@ import {
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import MintPage from './pages/MintPage';
 // import Header from './components/Header.js';
 // import Home from './components/Home.js';
 // import About from './components/About.js';
@@ -28,6 +29,10 @@ const App = () => (
 
       <Route exact path="/about">
         <AboutPage />
+      </Route>
+
+      <Route exact path="/mint">
+        <MintPage />
       </Route>
 
       {/* <Route exact path="/about">

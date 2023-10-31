@@ -62,6 +62,9 @@ function AboutPage() {
             <p className="bg-yellow-400 text-yellow-400 w-12 p-1 mt-8 inline-block mr-4 cursor-pointer hover:bg-yellow-200"></p>
             <p className="bg-yellow-400 text-yellow-400 custom-width p-1 mt-8 inline-block mr-4 cursor-pointer hover:bg-yellow-200"></p>
           </div>
+          <div className="flex justify-center items-center">
+            <button className="bg-yellow-400 text-purple-800 uppercase text-base pt-1 pb-1 pr-4 pl-4 font-bold mt-4">join the rebellion</button>
+          </div>
         </>
       }
     </div>
