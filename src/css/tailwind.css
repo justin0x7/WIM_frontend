@@ -29,6 +29,45 @@ body {
   width: 150px;
 }
 
+.custom-fintech {
+  width: 230px;
+  margin-right: 114px;
+}
+
+.custom-rebel {
+  position: relative;
+  right: 140px;
+}
+
+.custom-style {
+  position: relative;
+  right: 155px;
+}
+
+.custom-tech {
+  position: relative;
+  right: 156px;
+}
+
+.custom-ethnicity {
+  position: relative;
+  right: 143px;
+}
+
+.custom-gender {
+  position: relative;
+  right: 150px;
+}
+
+.custom-indegen {
+  width: 190px;
+}
+
+.custom-box {
+  width: 300px;
+  height: 300px;
+}
+
 .shadow-custom {
   box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
 }
