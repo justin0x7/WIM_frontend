@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import Galleon1 from "../assets/img/galleon1.png"
 import Galleon2 from "../assets/img/galleon2.png"
 import Galleon3 from "../assets/img/galleon3.png"
+import { Link } from 'react-router-dom';
 
-function AboutPage() {
+function StoryPage() {
   const [barSwitch, setBarSwitch] = useState(0);
   const nextBatSwitch = () => {
     setBarSwitch(barSwitch + 1)
@@ -63,7 +64,7 @@ function AboutPage() {
             <p className="bg-yellow-400 text-yellow-400 custom-width p-1 mt-8 inline-block mr-4 cursor-pointer hover:bg-yellow-200"></p>
           </div>
           <div className="flex justify-center items-center">
-            <button className="bg-yellow-400 text-purple-800 uppercase text-base pt-1 pb-1 pr-4 pl-4 font-bold mt-4">join the rebellion</button>
+          <Link to="/mint"><button className="bg-yellow-400 text-purple-800 uppercase text-base pt-1 pb-1 pr-4 pl-4 font-bold mt-4">join the rebellion</button></Link>
           </div>
         </>
       }
@@ -71,4 +72,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default StoryPage;

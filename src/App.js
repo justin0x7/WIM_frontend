@@ -8,8 +8,10 @@ import {
 } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import StoryPage from './pages/StoryPage';
 import MintPage from './pages/MintPage';
+import UtilityPage from './pages/UtilityPage';
+import ContactPage from './pages/ContactPage';
 // import Header from './components/Header.js';
 // import Home from './components/Home.js';
 // import About from './components/About.js';
@@ -27,12 +29,20 @@ const App = () => (
         <HomePage />
       </Route>
 
-      <Route exact path="/about">
-        <AboutPage />
+      <Route exact path="/story">
+        <StoryPage />
       </Route>
 
       <Route exact path="/mint">
         <MintPage />
+      </Route>
+
+      <Route exact path="/utility">
+        <UtilityPage />
+      </Route>
+
+      <Route exact path="/contact">
+        <ContactPage />
       </Route>
 
       {/* <Route exact path="/about">
@@ -43,6 +53,7 @@ const App = () => (
         <Contact />
       </Route> */}
     </Switch>
+    {/* {process.env.NODE_ENV === 'development' ? process.env.REACT_APP_DEV_MODE : process.env.REACT_APP_PRO_MODE} */}
   </Router>
 );
 
